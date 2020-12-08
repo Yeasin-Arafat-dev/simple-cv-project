@@ -1,0 +1,118 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #eeeeee;
+}
+.container {
+  background-color: #e4f9f5;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+img {
+  width: 100px;
+  height: 120px;
+  border-radius: 80%;
+  float: left;
+}
+h1,
+h2,
+h3,
+h4 {
+  color: #11999e;
+}
+.header-bio {
+  float: left;
+  padding: 20px;
+  line-height: 2px;
+}
+
+.header-contact {
+  float: right;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.header-contact a {
+  text-decoration: none;
+}
+
+.header-contact a:hover {
+  text-decoration: underline;
+  color: red;
+}
+.clear-div {
+  clear: both;
+}
+
+hr {
+  border: 2px solid black;
+  border-bottom: none;
+  border-radius: 5px;
+  margin: 20px auto;
+}
+
+.common-hr {
+  border: 1px black solid;
+  border-bottom: none;
+  border-radius: 5px;
+  margin: 20px auto;
+}
+.content {
+  padding-bottom: 30px;
+}
+
+.left-div {
+  float: left;
+  width: 30%;
+}
+
+.right-div {
+  float: right;
+  width: 70%;
+}
+
+.right-div h3,
+h5,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.edu-template-left {
+  float: left;
+  width: 50%;
+}
+.edu-template-right {
+  float: right;
+  width: 50%;
+}
+
+.ref-template-left {
+  float: left;
+  width: 50%;
+}
+.ref-template-right {
+  float: right;
+  width: 50%;
+}
+.footer-area {
+  background-color: black;
+  text-align: center;
+  padding: 10px;
+}
+
+.footer-area a {
+  text-decoration: none;
+  font-size: 20px;
+  margin: 20px;
+  color: white;
+}
+
+.footer-area p {
+  color: white;
+  padding: 20px;
+  font-weight: bold;
+  font-size: 18px;
+}
